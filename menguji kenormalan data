@@ -1,2 +1,4 @@
 X <- rnorm(1000) 
 A <- rnorm(1000) 
+qqplot(X, A, main="A and X are the same") #artinya kedua distribusi sama/sama2 dist 
+normal 
