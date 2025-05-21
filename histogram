@@ -1,0 +1,8 @@
+x <- rnorm(100) 
+hist(x) 
+#boxplot 
+boxplot(Sepal.Length ~ Species, data = iris, 
+ylab = "Sepal length (cm)", main = "Iris measurements", 
+boxwex = 0.5) 
+head(iris) 
+summary(iris) 
