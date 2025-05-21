@@ -1,0 +1,14 @@
+x <- rnorm(100) 
+# assigns 100 random normal observations to x 
+y <- rpois(100, 30) # assigns 100 random Poisson observations 
+# to y; mean value is 30 
+mean(y) 
+plot(x, y, main = "Poisson versus Normal") 
+plot(x, y, type="l") # plots a broken line (a dense tangle of line 
+# segments here) 
+plot(sort(x), sort(y), type="l") # a plot of the sample "quantiles" 
+plot(sort(x), sort(y), type="b") # both points and lines 
+plot(sort(x), sort(y), type="c") # empty points joined by lines 
+plot(sort(x), sort(y), type="o") # overplotted points and lines 
+plot(sort(x), sort(y), type="s") # stair steps 
+plot(sort(x), sort(y), type="n") # does not produce any points or lines 
