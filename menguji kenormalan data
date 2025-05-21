@@ -5,3 +5,5 @@ normal
 qqplot(X, B, main="B is rescaled X") #hampir sama2 dist normal 
 C <- rt(1000, df=2) 
 qqplot(X, C, main="C has heavier tails") #bukan sebaran normal kedua distribusinya 
+D <- exp(rnorm(1000)) 
+qqplot(X, D, main="D is skewed to the right") 
